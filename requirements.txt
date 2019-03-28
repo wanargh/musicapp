@@ -1,0 +1,7 @@
+pip>=9.0.1
+Flask==0.12.2
+requests
+requests_cache
+pprint
+config
+cassandra-driver

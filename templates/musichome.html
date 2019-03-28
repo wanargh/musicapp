@@ -1,0 +1,96 @@
+<html>
+
+<head>
+  <title>RESTful app</title>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Archivo">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  height: 550px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+
+<body>
+
+  <s>&nbsp;</s>
+
+  <f style="font-family:'Archivo',serif;font-size:30px;font-style:bold;color:#ffb6c1;text-align:center">
+    <h1> &#127911 THE OFFICIAL TOP 10 &#127911 </h1>
+
+    <s>&nbsp;</s>
+
+
+    <div class="row">
+      <div class="column" style="background-color:#ffb6c1;">
+        <f style="font-family:'Archivo',serif;font-size:15px;font-style:bold;color:#000000">
+          <h2>Country Chart</h2>
+
+          <form>
+            <input type="text" name="countryA" placeholder="chart search">
+            <input type="submit" value="submit">
+          </form>
+
+  <s>&nbsp;</s>
+
+            <p>1.{{top10dataA[0],top10dataA[1]}}</p>
+            <p>2.{{top10dataA[2],top10dataA[3]}}</p>
+            <p>3.{{top10dataA[4],top10dataA[5]}}</p>
+            <p>4.{{top10dataA[6],top10dataA[7]}}</p>
+            <p>5.{{top10dataA[8],top10dataA[9]}}</p>
+            <p>6.{{top10dataA[10],top10dataA[11]}}</p>
+            <p>7.{{top10dataA[12],top10dataA[13]}}</p>
+            <p>8.{{top10dataA[14],top10dataA[15]}}</p>
+            <p>9.{{top10dataA[16],top10dataA[17]}}</p>
+            <p>10.{{top10dataA[18],top10dataA[19]}}</p>
+
+      </div>
+
+      <div class="column" style="background-color:#b0d1ff;">
+        <f style="font-family:'Archivo',serif;font-size:15px;font-style:bold;color:#000000">
+          <h2>Country Chart</h2>
+
+
+          <form>
+            <input type="text" name="countryB" placeholder="chart search">
+            <input type="submit" value="submit">
+          </form>
+
+  <s>&nbsp;</s>
+
+
+          <p>1.{{top10dataB[0],top10dataB[1]}}</p>
+          <p>2.{{top10dataB[2],top10dataB[3]}}</p>
+          <p>3.{{top10dataB[4],top10dataB[5]}}</p>
+          <p>4.{{top10dataB[6],top10dataB[7]}}</p>
+          <p>5.{{top10dataB[8],top10dataB[9]}}</p>
+          <p>6.{{top10dataB[10],top10dataB[11]}}</p>
+          <p>7.{{top10dataB[12],top10dataB[13]}}</p>
+          <p>8.{{top10dataB[14],top10dataB[15]}}</p>
+          <p>9.{{top10dataB[16],top10dataB[17]}}</p>
+          <p>10.{{top10dataB[18],top10dataB[19]}}</p>
+
+
+      </div>
+    </div>
+
+
+</body>
+
+</html>
+
